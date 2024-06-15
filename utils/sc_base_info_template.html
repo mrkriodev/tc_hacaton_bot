@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Token Information</title>
+</head>
+<body>
+    <h1>Token Information</h1>
+    <h2>Creator</h2>
+    <p>Address: {{ creator.adr }}</p>
+    <p>Balance: {{ creator.balance }}</p>
+    <p>Rate: {{ creator.rate }}</p>
+
+    <h2>Owner</h2>
+    <p>Address: {{ owner.adr }}</p>
+    <p>Balance: {{ owner.balance }}</p>
+    <p>Rate: {{ owner.rate }}</p>
+
+    <h2>Other Properties</h2>
+    <p>Is Renounced: {{ is_renounced }}</p>
+    <p>Is Mintable: {{ is_mintable }}</p>
+    <p>Is Burnable: {{ is_burnable }}</p>
+    <p>Is Proxy: {{ is_proxy }}</p>
+    <p>Is Self Destructable: {{ is_self_destructable }}</p>
+    <p>Is Token Transferable: {{ is_token_transferable }}</p>
+    <p>Transfer Tax: {{ transer_tax }}</p>
+    <p>Transfer From Tax: {{ transfer_from_tax }}</p>
+</body>
+</html>
